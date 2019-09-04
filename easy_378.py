@@ -5,9 +5,8 @@ def warmup1(lst):
   # Warmup 1: eliminating 0's
   lst_warmup1 = lst  
   zero_count = lst.count(0)
-  for i in range(zero_count):
+  for _ in range(zero_count):
       lst_warmup1.remove(0)
-
   return lst_warmup1
 
 def warmup2(lst):
